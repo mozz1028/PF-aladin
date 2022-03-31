@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENEWAL_ALADIN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/slick.css">
+    <link rel="stylesheet" href="js/slick.min.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slick.css"></script>
+    <script src="js/slick.min.js"></script>
+
+</head>
+<body>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+    <header>
+        <div class="top">
+            <div class="nav_icon"><img src="images/icons8-menu-120.png" alt=""></div>
+            <h1><a href="#"><img src="images/logo3.jpg" alt=""></a></h1>
+            <p><a href="#">모든도서</a></p>
+            <p class="event"><a href="#">이벤트도서</a></p>
+            <div class="search"> 
+                <div class="icon"><img src="images/icon_search.png" alt=""></div>
+                <form action="">
+                    <input type="text" placeholder="도서검색">
+                </form>
+            </div>
+            <ul class="icon">
+                <li><a href="#"><img src="images/icons8-user-96.png" alt=""></a></li>
+                <li><a href="#"><img src="images/icons8-heart-96.png" alt=""></a></li>
+                <li><a href="#"><img src="images/icon_cart2.png" alt=""></a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="nav_wrap">
+                <div class="main_nav">
+                    <ul class="nav_top">
+                        <li class="close"><img src="images/icon_close.png" alt=""></li>
+                        <li class="nav_logo"><img src="images/logo.jpg" alt=""></li>
+                    </ul>
+                    <ul class="all">모든도서</ul>
+                    <ul class="new">신작도서</ul>
+                    <ul class="gnb">
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">전자책</a></li>
+                        <li><a href="#">2021올해의 책</a></li>
+                        <li><a href="#">외국도서</a></li>
+                        <li><a href="#">책 읽는 사람들의 연구소</a></li>
+                        <li><a href="#">알라딘 굿즈</a></li>
+                        <li><a href="#">알라디너 TV</a></li>
+                    </ul>
+                    <ul class="sub_gnb">
+                        <li><a href="#">알라딘캐시</a></li>
+                        <li><a href="#">배송조회</a></li>
+                        <li><a href="#">내 주변 중고매장</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+
+                <div class="sub_nav">
+                    <ul class="in_all">
+                        <li>
+                            <ul class="sub_top">
+                                <li class="back"><img src="images/arrow-right.png" alt=""></li>
+                                <li class="sub_tit">모든도서</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sub_menu">
+                                <li class="menu1">국내 도서</li>
+                                <li class="menu2">외국도서</li>
+                                <li class="menu3">음반</li>
+                                <li class="menu4">DVD</li>
+                                <li class="menu5"><a href="#">정가 인하 도서</a></li>
+                                <li class="menu6"><a href="#">알라딘 스페셜</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="sub2_nav">
+                    <div class="korea">
+                        <ul class="in_all">
+                            <li>
+                                <ul class="sub_top">
+                                    <li class="back"><img src="images/arrow-right.png" alt=""></li>
+                                    <li class="sub_tit">국내도서</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <ul class="sub_menu">
+                                    <li>연령 맞춤 도서
+                                        <ul class="baby_menu">
+                                            <li>유아</li>
+                                            <li>어린이</li>
+                                            <li>청소년</li>
+                                            <li>부모</li>
+                                        </ul>
+                                    </li>
+                                    <li>장르별 도서
+                                        <ul class="baby_menu">
+                                            <li>단편소설</li>
+                                            <li>장편소설</li>
+                                            <li>고전소설</li>
+                                            <li>시</li>
+                                            <li>만화</li>
+                                            <li>에세이</li>
+                                        </ul>
+                                    </li>
+                                    <li>교육도서
+                                        <ul class="baby_menu">
+                                            <li>인문학</li>
+                                            <li>사회과학</li>
+                                            <li>역사</li>
+                                            <li>과학</li>
+                                            <li>예술 / 미술</li>
+                                            <li>종교 / 역학</li>
+                                            <li>대중문화</li>
+                                        </ul>
+                                    </li>
+                                    <li>참고서
+                                        <ul class="baby_menu">
+                                            <li>중학교 참고서</li>
+                                            <li>고등학교 참고서</li>
+                                            <li>대학교재</li>
+                                            <li>수험서 / 자격증</li>
+                                            <li>달력 / 기타</li>
+                                            <li>전집 / 중고전집</li>
+                                        </ul>
+                                    </li>
+                                    <li>자기계발
+                                        <ul class="baby_menu">
+                                            <li>경제/ 경영</li>
+                                            <li>컴퓨터<im g src="images/black-circle.png" alt="">모바일</li>
+                                            <li>외국어 자격증</li>
+                                        </ul>
+                                    </li>
+                                    <li>취미 / 여행
+                                        <ul class="baby_menu">
+                                            <li>건강</li>
+                                            <li>요리</li>
+                                            <li>여행 / 투어</li>
+                                            <li>뷰티</li>
+                                            <li>잡지</li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="foreign">
+                        <ul class="in_all">
+                            <li>
+                                <ul class="sub_top">
+                                    <li class="back"><img src="images/arrow-right.png" alt=""></li>
+                                    <li class="sub_tit">외국도서</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="sub_menu">
+                                    <li>장르별 도서
+                                        <ul class="baby_menu">
+                                            <li>단편소설</li>
+                                            <li>장편소설</li>
+                                            <li>희곡</li>
+                                            <li>시</li>
+                                            <li>만화</li>
+                                            <li>어린이 전용</li>
+                                        </ul>
+                                    </li>
+                                    <li>교육도서
+                                        <ul class="baby_menu">
+                                            <li>ELT</li>
+                                            <li>어학사전</li>
+                                            <li>인문 / 사회</li>
+                                            <li>경제 / 경영</li>
+                                            <li>자연과학</li>
+                                            <li>예술</li>
+                                            <li>대중문화</li>
+                                        </ul>
+                                    </li>
+                                    <li>나라별
+                                        <ul class="baby_menu">
+                                            <li>미국 도서</li>
+                                            <li>일본 도서</li>
+                                            <li>중국 도서</li>
+                                            <li>기타</li>
+
+                                        </ul>
+                                    </li>
+                                    <li>취미 / 여행
+                                        <ul class="baby_menu">
+                                            <li>여행 / 투어</li>
+                                            <li>뷰티</li>
+                                            <li>잡지</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="music">
+                        <ul class="in_all">
+                            <li>
+                                <ul class="sub_top">
+                                    <li class="back"><img src="images/arrow-right.png" alt=""></li>
+                                    <li class="sub_tit">음반</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="sub_menu">
+                                    <li>가요</li>
+                                    <li>POP / JPOP</li>
+                                    <li>클래식</li>
+                                    <li>재즈</li>
+                                    <li>OST</li>
+                                    <li>트로트</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dvd">
+                        <ul class="in_all">
+                            <li>
+                                <ul class="sub_top">
+                                    <li class="back"><img src="images/arrow-right.png" alt=""></li>
+                                    <li class="sub_tit">DVD</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="sub_menu">
+                                    <li>드라마</li>
+                                    <li>코미디</li>
+                                    <li>TV 시리즈</li>
+                                    <li>액션 / 어드벤처</li>
+                                    <li>SF / 판타지</li>
+                                    <li>공포 / 스릴러</li>
+                                    <li>에니메이션</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="banner_wrap">
+            <div class="left">
+                <p class="aladin">좋은 책을 고르는 방법 알라딘 중고서점</p>
+                <p class="text"> 알라딘은 최저가 보상제도로 믿고 주문할 수  있는 서점으로,<br>내 주변 알라딘 서점을 이용하시면<br>중고책을 판매하고 구매할 수 있습니다.</p>
+                <p class="text2"> 당일 배송으로 차원이 다른 양탄자 배송을 경험해보세요. </p>
+                <div class="mall">
+                   <a href="#"> 굿즈몰 바로가기<img src="images/arrow-right-white.png" alt=""></a>
+                </div>
+            </div><!--left-->
+            <div class="right"></div>
+        </div>
+    </div>
+    <div class="singan">
+        <h3>새로나온 책, 신간도서</h3>
+        <div class="track">
+            <div class="slickTrap">
+                <div class="book1 . book1">
+                    <div class="book_main">
+
+ 
+                        <p class="text">'기깔나게 살고 싶은'고등학생과 '청춘이 그리운 '대기업 노년 회장의 좌충우돌 영혼 체인지</p>
+                    </div>
+                    <div class="tit">
+                        <h6>백일청춘</h6>
+                        <p>정혜연<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book2">
+                    <div class="book_main">
+                        
+                        <p class="text"> 절망 속에서 자라난 한 줄기의 온기, 성장이 멈춘 소년, 숲속의 ‘담’이 세상을 향해 다시금 내미는 손길</p>
+                    </div>
+                    <div class="tit">
+                        <h6>숲속의 담2</h6>
+                        <p>다홍<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book3">
+                    <div class="book_main">
+                        
+                        <p class="text">시인 강성은의 낯설고도 아름다운 첫 소설위안과 안심과 단잠의 세계로 이끄는 매혹적인 이야기들</p>
+                    </div>
+                    <div class="tit">
+                        <h6>나의 잠과는 무관하게</h6>
+                        <p>강성은<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book4">
+                    <div class="book_main">
+                        
+                        <p class="text">《어느 날 몸 밖으로 나간 여자는》과 연결 되면서도 독립적이고 독특한 소설 실험</p>
+                    </div>
+                    <div class="tit">
+                        <h6>그 남자의 집으로 들어갔다.</h6>
+                        <p>정하은<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book1 . book5">
+                    <div class="book_main">
+
+                        <p class="text"> 실종된 동생, 사라진 시체, 조작된 재판, 날조된 범인. 나는 그날의 진실을 밝히기 위해 형사가 되었다.</p>
+                    </div>
+                    <div class="tit">
+                        <h6>내 동생의 무덤</h6>
+                        <p>로버트 두고니<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book6">
+                    <div class="book_main">
+                        <p class="text">『나의 미친 페미니스트 여자친구』를 잇는 로맨스의 새로운 패러다임. 보편적 독점 연애와 결혼 제도에 물음표를 던진다.</p>
+                    </div>
+                    <div class="tit">
+                        <h6>나의 완벽한 남자친구와 그의 연인</h6>
+                        <p>민지형<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book7">
+                    <div class="book_main">
+                        <p class="text">당신은 지금 남 좋은 일만 하고 있다. '돈버는 방법의 고전'이 된, 솔직! 통쾌! 부자의 조언</p>
+                    </div>
+                    <div class="tit">
+                        <h6>빈손으로 시작해도 돈이 따라올 거야</h6>
+                        <p>펠릭스 데니스<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book8">
+                    <div class="book_main">
+                        <p class="text">“해파리인 줄 알았는데… 비닐봉지였어!”  해양 오염의 심각성을 일깨워주는 그림책</p>
+                    </div>
+                    <div class="tit">
+                        <h6>고래야 사랑해</h6>
+                        <p>바루<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book9">
+                    <div class="book_main">
+                        <p class="text">호수문학회 스물한 번째 이야기 <세월을 잇는 향기></p>
+                    </div>
+                    <div class="tit">
+                        <h6>세월을 잇는 향기</h6>
+                        <p>호수 문학회<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+                <div class="book . book10">
+                    <div class="book_main">
+                        <p class="text">71만 구독자가 공감한 유튜브 웹드라마, 짧은대본이 선사하는 평범한 사람들의 사랑 이야기 </p>
+                    </div>
+                    <div class="tit">
+                        <h6>그냥, 그렇다고</h6>
+                        <p>짧은대본<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+
+                <div class="book . book11">
+                    <div class="book_main">
+                        <p class="text">오늘도 현실이라는 벽에 가로막히고, 사람에게 상처 받았다면... 행복의 실마리도, 인간관계의 답도 모두 자신 안에 있다! </p>
+                    </div>
+                    <div class="tit">
+                        <h6>나를 힘들게 한 건 언제나 나였다.</h6>
+                        <p>데일 카네기<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+
+                <div class="book . book12">
+                    <div class="book_main">
+                        <p class="text">"감정을 숨기면 독이되고, 받아들이면 약이된다." 삶이 편안해지는 감정 회복 <br></p>
+                    </div>
+                    <div class="tit">
+                        <h6>감정은 잘못이 없다</h6>
+                        <p>류페이쉬안<img src="images/icon_pencil.png" alt=""></p>
+                    </div>
+                    <div class="go">
+                        <div class="gray"><a href="#"><img src="images/wh_next.png" alt=""></a></div>
+                    </div>
+                </div>
+
+                <div class="dots">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="moreview">
+            <a href="#">더보기 <img src="images/arrow-right.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="public">
+        <h3>이번주 인기도서</h3>
+        <p class="text">알라딘에서 최근 일주일간 가장 많이 판매된 전자책  TOP5</p>
+        <div class="top5">
+            <div class="box1">
+                <div class="top_book"></div>
+                <h6 class="book_tit">미드나잇 라이브러리</h6>
+                <p class="writer">매트 헤이그</p>
+                <div class="more"><a href="#">바로보기</a></div>
+                <div class="star">
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="top_book"></div>
+                <h6 class="book_tit">지금은 나만의 시간입니다.</h6>
+                <p class="writer">김유진</p>
+                <div class="more"><a href="#">바로보기</a></div>
+                <div class="star">
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="top_book"></div>
+                <h6 class="book_tit">엄마에 대하여</h6>
+                <p class="writer">한정헌 외 5명</p>
+                <div class="more"><a href="#">바로보기</a></div>
+                <div class="star">
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="far fa-star"></i></p>
+                    <p><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="top_book"></div>
+                <h6 class="book_tit">작은별이지만</h6>
+                <p class="writer">소윤에세이</p>
+                <div class="more"><a href="#">바로보기</a></div>
+                <div class="star">
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star-half-alt"></i></p>
+                    <p><i class="far fa-star"></i></p>
+                </div>
+            </div>
+            <div class="box5">
+                <div class="top_book"></div>
+                <h6 class="book_tit">감정이 아니라고 말할 때</h6>
+                <p class="writer">성유미</p>
+                <div class="more"><a href="#">바로보기</a></div>
+                <div class="star">
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="fas fa-star"></i></p>
+                    <p><i class="far fa-star"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="moreview"><a href="#">더보기<img src="images/arrow-right.png" alt=""></a></div>
+    </div>
+
+    <div class="ebook">
+        <div class="ebook_wrap">
+            <h3>ebook / e브랜드전</h3>
+            <p class="text">전자도서와 관련된 이벤트를 확인하고, 할인가로 대여하세요.</p>
+            <div class="main">
+                <div class="best">
+                    <h5>베스트 ebook</h5>
+                    <div class="top_book"></div>
+                    <h6 class="book_tit">우리가 빛의 속도로 갈 수 없다면</h6>
+                    <p class="writer">김초엽</p>
+                    <!-- <div class="more"><a href="#">자세히보기</a></div> -->
+                </div>
+                <div class="sale">
+                    <h5>대여할인</h5>
+                    <div class="wrap">
+                        <div class="sale1">
+                        <div class="top_book"></div>
+                            <h6 class="book_tit">아픔의 길이 되려면</h6>
+                            <p class="writer">김승섭</p>
+                            <div class="price">
+                                <p class="no">10,800</p>
+                                <p class="sale_price">5,400원</p>
+                            </div>
+                            <!-- <div class="more"><a href="#">자세히보기</a></div> -->
+                        </div>
+                        <div class="sale2">
+                            <div class="top_book"></div>
+                            <h6 class="book_tit">천 개의 파랑</h6>
+                            <p class="writer">천선란</p>
+                            <div class="price">
+                                <p class="no">14,000</p>
+                                <p class="sale_price">4,700원</p>
+                            </div>
+                            <!-- <div class="more"><a href="#">자세히보기</a></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <h5>e브랜드전 이벤트</h5>
+                    <a href="#">
+                        <div class="item2"></div>
+                        <div class="item1"></div>
+                        <p class="usbtext">동아시아 / 허블 eBook 포함<br>
+                            3만원 이상 구매시,<br>‘나는 고양이로소이다’ USB 메모리(32G)증정</p>
+                    </a>
+                </div>
+                <div class="moreview">
+                    <a href="#">ebook 바로가기 <img src="images/arrow-right.png" alt=""></a>
+                </div>
+        </div>
+    </div>
+    <div class="now">
+        <h3>한눈에 보는 이벤트</h3>
+        <p class="main_text">현재 진행중인 알라딘 이벤트를 확인해보세요.</p>
+        <div class="nowevent">
+            <div class="event1">
+                <div class="track">
+                    <div class="imgbox">
+                        <div><img src="images/event_tea1.jpg" alt=""></div>
+                        <div><img src="images/event_tea2.jpg" alt=""></div>
+                        <div><img src="images/event_tea3.jpg" alt=""></div>
+                        <div><img src="images/event_tea4.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="txt">
+                    <a href="#">
+                        <p class="text"><span>'차 거름망 내열 유리컵’ 사은품 증정</span><br>해당도서 포함하여 소설 / 시 / 희곡 3만원 이상 구입시</p>
+                        <p class="seemore"><a href="#"> 외국소설 결산전 <img src="images/arrow-right-white.png" alt=""></a></p>
+                    </a>
+                </div>
+            </div>
+            <div class="event2">
+                <div class="track">
+                    <div class="imgbox">
+                        <div><img src="images/event2-0.jpg" alt=""></div>
+                        <div><img src="images/event2-1.jpg" alt=""></div>
+                        <div><img src="images/event2-2.jpg" alt=""></div>
+                        <div><img src="images/event2-3.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="txt">
+                    <a href="#">
+                        <p class="text"><span>무릎담요 / 양장노트 사은품 증정</span><br>해당도서 1권을 포함하여, 에세이 분야 30,000원 이상 구입시<br></p>
+                        <p class="seemore"><a href="#">에세이 특별 선물 <img src="images/arrow-right-white.png" alt=""></a></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vote">
+        <div class="ft_banner">
+            <div class="wrap">
+                <div class="txt">
+                    <p>2021년 한국문학의 얼굴들 </p>
+                    <h6>올해의 소설 / 시를 뽑아주세요.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="sub_vote">
+            <div class="vote_txt">
+                <p>2021 올해의 책 후보 도서를 투표하고<br>MD가 뽑은 2021년 이달의 책을 구입하시면,<br>'2021 책배게'를 드립니다.</p>
+                <p>올 한해를 빛낸 책들이 당신의 선택을 기다립니다.<br>투표에 참여해주시는 분들께 1,000원의 적립금을 드립니다.</p>
+                <div class="now_vote">
+                    <a href="#">올해의 책 투표하기</a>
+                </div>
+            </div>
+            <div class="vote_img">
+                <div class="track">
+                    <div><img src="images/2021-0.png" alt=""></div>
+                    <div><img src="images/2021-1.png" alt=""></div>
+                    <div><img src="images/2021-2.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <div class="top">
+                <div class="delivery">
+                    <div class="logo">
+                        <img src="images/whiteale.png" alt="">
+                        <p>알라딘</p>
+                    </div>
+                    <p>주문시 당일배송 되는 알라딘에서<br> 차원이 다른 양탄자 배송을 느껴보세요.</p>
+                </div>
+                <div class="ul">
+                    <ul>출판 / 판매문의
+                        <li><a href="#">제휴 / 마케팅</a></li>
+                        <li><a href="#">출판 / 공급사</a></li>
+                        <li><a href="#">광고 안내</a></li>
+                        <li><a href="#">판매자 매니저</a></li>
+                    </ul>
+                    <ul> 배송문의
+                        <li><a href="#">배송조회</a></li>
+                        <li><a href="#">교환 / 환불</a></li>
+                        <li><a href="#">편의점 배송</a></li>
+                        <li><a href="#">수령일 예고제</a></li>
+                    </ul>
+                    <ul> 문의하기
+                        <li><a href="#">대량구매</a></li>
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="recycle">
+                    <div class="store">
+                        <p>중고매장</p>
+                        <a href="#">중고매장 위치, 영업시간 안내</a>
+                    </div>
+                    <div class="sns">
+                        <p>SNS</p>
+                        <ul>
+                            <li><a href="#"><img src="images/icon_sns_face.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/icon_sns_twiter.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/icon_sns_instart.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--top-->
+            <div class="bottom">
+                <div class="add">
+                    <p>ⓒ Aladin Communication. All Rights Reserved.</p>
+                    <ul>
+                        <li>(주)알라딘 커뮤니케이션</li>
+                        <li>주소 : 서울시 마포구 백범로 71 숨도빌딩 7층</li>
+                        <li>FAX : 02 - 6913 - 2500</li>
+                        <li>대표이사 : 최우경</li>
+                        <li>사업자등록 :201 - 81 - 23094 </li>
+                    </ul>
+                </div>
+                <div class="ft_gnb">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">쿠키정책</a></li>
+                        <li><a href="#">웹사이트 이용약관</a></li>
+                        <li><a href="#">청소년 보호정책</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
