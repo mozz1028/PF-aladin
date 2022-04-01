@@ -8,6 +8,7 @@
 body{
     font-family: 'Noto Sans KR';
     font-weight: normal;
+    overflow-x: hidden;
 }
 
 header{
@@ -341,22 +342,6 @@ nav .sub_gnb li{
 .singan .slickTrap{
     display: flex;
     width: 1280px;
-}
-
-
-
-::-webkit-scrollbar {
-    height: 2px;
-    cursor: pointer;
-}    
-::-webkit-scrollbar-track-piece {
-    background-color: #f5eeee;
-    height: 2px; 
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgb(110, 104, 104);
-
 }
 .singan .slickTrap > div{
     padding-bottom: 30px;
